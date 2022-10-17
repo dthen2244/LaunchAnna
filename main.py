@@ -17,7 +17,7 @@ def start(message):
     chat_id = message.chat.id
     first_name = message.chat.first_name
     bot.send_message(chat_id, f"Привет {first_name} !\n"
-                              f"(Здесь будет неебичиский прогрев к статье) Чтобы продолжить подпишись на канал!",
+                              f"(Здесь будет неебичиский прогрев к статье!) Чтобы продолжить подпишись на канал!",
                      reply_markup=start_markup())
 
 
